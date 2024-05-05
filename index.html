@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <script src="https://kit.fontawesome.com/934bce4726.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <i class="fas fa-bars"></i>
+            <ul>
+                <li style="--x:1;"><a href="#">Trang chủ</a></li>
+                <li style="--x:2;"><a href="#">Đặc điểm</a></li>
+                <li style="--x:3;"><a href="#">Về chúng tôi</a></li>
+                <li style="--x:4;"><a href="#">Bộ sưu tập</a></li>
+                <li style="--x:5;"><a href="#">Đánh giá</a></li>
+                <li style="--x:6;"><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="video-container">
+            <video src="video/Saigon.mp4" autoplay muted loop></video>
+        </div>
+        <div class="header-content">
+            <h1>Khám phá</h1>
+            <p>Xách ba lô lên và đi thôi nào</p>
+            <form action="#">
+                <h1>Bạn muốn đi đâu hè này</h1>
+                <label for="location">Địa điểm</label>
+                <select name="" id="location">
+                    <option value="#">--Chọn địa điểm</option>
+                </select>
+                <label for="amount">Số người</label>
+                <input id="amount" type="number" min="1" placeholder="Bạn đi bao nhiêu người">
+                <label for="date-go">Ngày đi</label>
+                <input id="date-go" type="date">
+                <label for="date-back">Ngày về</label>
+                <input id="date-back" type="date">
+                <button class="btn">Tìm kiếm</button>
+            </form>
+        </div>
+    </header>
+    <!---------------------------------Nice Place-------------------------------->
+    <section class="nice-place">
+        <div class="container">
+            <h1>Địa điểm nổi bật</h1>
+            <div class="nice-place-content">
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="images/TayBac.webp">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Tour Tây Bắc</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <p>Tây Bắc là khu vực vùng núi phía Tây của miền Bắc Việt Nam. Nhắc đến Tây Bắc, chúng ta liên tưởng ngay đến những dãy núi non hùng vĩ trùng điệp.</p>
+                        <button>Mua Tour</button>
+                    </div>
+                </div>
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="images/HaNoi.jpg">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Tour Hà Nội</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <p>Hà Nội là thủ đô, thành phố trực thuộc trung ương và là một trong hai đô thị loại đặc biệt của nước Cộng hòa xã hội chủ nghĩa Việt Nam.</p>
+                        <button>Mua Tour</button>
+                    </div>
+                </div>
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="images/BenThanh.jpg">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Tour Sài Gòn</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <p>Thành phố Hồ Chí Minh là thành phố lớn nhất Việt Nam và là một siêu đô thị trong tương lai gần. Đây còn là trung tâm kinh tế, giải trí.</p>
+                        <button>Mua Tour</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------About-------------------------------->
+    <section class="about">
+        <div class="container">
+            <h1>About</h1>
+            <div class="about-content">
+                <div class="about-content-left">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="about-content-right">
+                    <h2>Tại sao bạn nên chọn chúng tôi?</h2>
+                    <p>Chúng tôi là Công ty cung cấp dịch vụ du lịch nội địa, quốc tế hàng đầu Việt Nam và Thế giới.</p>
+                    <button>Tìm hiểu thêm</button>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-items">
+                    <div class="service-item">
+                        <img src="images/hotel.png">
+                        <p>Đặt phòng</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/customer.png">
+                        <p>Dịch vụ 24/7</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/rules.png">
+                        <p>Guide book</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------Tour 2021---------------------->
+    <section class="tour">
+        <div class="container">
+            <h1>Tour hè 2024</h1>
+            <div class="tour-content">
+                <div class="tour-content-item">
+                    <div class="tour-content-item-img">
+                        <img src="images/DaLat.webp">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Đà lạt</h2>
+                        <p>Đà Lạt là thành phố của tỉnh Lâm Đồng, nằm trên cao nguyên Lâm Viên thuộc vùng Tây Nguyên Việt Nam.</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item">
+                    <div class="tour-content-item-img">
+                        <img src="images/HoiAn.jpg">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Hội An</h2>
+                        <p>Đà Lạt là thành phố của tỉnh Lâm Đồng, nằm trên cao nguyên Lâm Viên thuộc vùng Tây Nguyên Việt Nam.</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item">
+                    <div class="tour-content-item-img">
+                        <img src="images/Hue.jpg">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Huế</h2>
+                        <p>Đà Lạt là thành phố của tỉnh Lâm Đồng, nằm trên cao nguyên Lâm Viên thuộc vùng Tây Nguyên Việt Nam.</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item">
+                    <div class="tour-content-item-img">
+                        <img src="images/BenThanh.jpg">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Hồ Chí Minh</h2>
+                        <p>Đà Lạt là thành phố của tỉnh Lâm Đồng, nằm trên cao nguyên Lâm Viên thuộc vùng Tây Nguyên Việt Nam.</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item">
+                    <div class="tour-content-item-img">
+                        <img src="images/HaGiang.webp">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Hà Giang</h2>
+                        <p>Đà Lạt là thành phố của tỉnh Lâm Đồng, nằm trên cao nguyên Lâm Viên thuộc vùng Tây Nguyên Việt Nam.</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------Review---------------------->
+    <section class="review">
+        <div class="container">
+            <h1>Phản hồi</h1>
+            <div class="review-content">
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="images/quotes.png">
+                        <p><span>&ldquo;</span>Dịch vụ khá tốt và an toàn trong suốt chuyến đi, khá hài lòng và xứng đáng với giá tiền.<span>&ldquo;</span></p>
+                    </div>
+                    <div class="review-item-img">
+                        <img src="images/avatar.jpg">
+                        <div class="review-item-img-text">
+                            <h2>Ngô Sỹ Nguyên</h2>
+                            <p>Ngày 18/7/2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="images/quotes.png">
+                        <p><span>&ldquo;</span>Dịch vụ khá tốt và an toàn trong suốt chuyến đi<span>&ldquo;</span></p>
+                    </div>
+                    <div class="review-item-img">
+                        <img src="images/avatar.jpg">
+                        <div class="review-item-img-text">
+                            <h2>Ngô Sỹ Nguyên</h2>
+                            <p>Ngày 18/7/2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="images/quotes.png">
+                        <p><span>&ldquo;</span>Dịch vụ khá tốt và an toàn trong suốt chuyến đi<span>&ldquo;</span></p>
+                    </div>
+                    <div class="review-item-img">
+                        <img src="images/avatar.jpg">
+                        <div class="review-item-img-text">
+                            <h2>Ngô Sỹ Nguyên</h2>
+                            <p>Ngày 18/7/2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
